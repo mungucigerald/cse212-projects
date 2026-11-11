@@ -22,7 +22,7 @@
                 else if (item == "*") {
                     res = op1 * op2;
                 }
-                else {
+                else { 
                     if (op2 == 0)
                         throw new ApplicationException("Invalid Case 2!");
 
